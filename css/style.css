@@ -1,0 +1,135 @@
+body {
+  font: 10px sans-serif;
+  background-color: #dbdbdbd;
+}
+
+mark{
+  background-color: "grey";
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+h2.subtitle {
+  font-size: 1em;
+  padding-left: 0px;
+  color: #666;
+}
+
+h3{
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+/* Basic styling for the step links */
+a.step-link {
+  padding: 5px;
+  background-color: #444;
+  color: #666;
+  text-decoration: none;
+}
+
+a.step-link:hover, a.active {
+  color: #ddd;
+}
+
+#container{
+  margin: auto;
+  padding-top: 20px;
+  width: 980px;
+}
+
+/* Basic styling for Description link*/
+a.desc-link {
+  padding: 5px;
+  background-color: #444;
+  color: #666;
+  text-decoration: none;
+}
+
+a.desc-link:hover, a.active {
+  color: #ddd;
+}
+
+/* Here is our relatively positioned container div to hold the rest of the visualization */
+#graph_container {
+  position: relative;
+  width: 980px;
+  height: 510px;
+  margin-top: 10px;
+}
+
+/* All the .annotation-step divs are inside #annotation-steps. z-index ensures annotations stay on top of visualization. */
+#annotation-steps {
+  position: absolute;
+  z-index: 40;
+}
+
+#filter_container {
+  z-index: 20;
+}
+
+/* Change the background color. */
+#vis-canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  overflow: hidden;
+  background-color: #eee;
+}
+
+/* By default, all annotation-steps are hidden. */
+.annotation-step {
+  position: absolute;
+  display: none;
+}
+
+/* Finally we can position each annotation exactly how we want. */
+.annotation {
+  position: absolute;
+}
+ 
+#step1-high-annotation {
+  left: 170px;
+  top: 130px;
+  width: 140px;
+}
+
+#step2-high-annotation {
+  left: 200px;
+  top: 60px;
+  width: 140px;
+}
+
+#step3-high-annotation {
+  left: 240px;
+  top: 30px;
+  width: 140px;
+}
+
+.tooltip{
+  position: absolute;
+  max-width: 200px;
+  height: auto;
+  padding: 5px;
+  background-color: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+  -moz-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+  pointer-events:none;
+  font-family: sans-serif;
+  font-size: 12px;
+  
+}
