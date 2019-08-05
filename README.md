@@ -1,6 +1,6 @@
 # NarrativeViz
 
-Link : [Narrative Visualization-How to be an Airbnb Superhost in Chicago](https://heyelyon.github.io/NarrativeViz/index)
+Link : [Narrative Visualization-How to be an Airbnb host in Chicago](https://heyelyon.github.io/NarrativeViz/index)
 
 ### Messaging
 
