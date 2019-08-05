@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+  <title>CS498 Narrative Visualization</title>
+  <meta name="author" content="Judy Zhu">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <body>
+    <div id="container">
+    <h1>If You Plan to be An Airbnb Host in Chicago...</h1>
+    <h2 class="subtitle">Scene Navigator</h2>
+    <div id="filter_container">
+      <a href= "index.html" id="step1" class="step-link">Know the Market 1</a>
+      <a href= "index2.html" id="step2" class="step-link">Know the Market 2</a>
+      <a href= "index3.html" id="step3" class="step-link">Know the Market 3</a>
+      <a href= "index4.html" id="step4" class="step-link">Know the Market 4</a>
+      <a href= "#" id="step5" class="step-link active">Being a Superhost</a>
+      </br>
+      </br>
+      <h2> THEN, figure out: <u>how to be a superhost</u>  </h2>
+      <h3>The Bar Chart below is grouped by <strong><u>superhost indicator</u> </strong>. To figure out which factor contributes to superhost status, I present a comparison between superhost and non-superhost on 3 possible factors:</h3>
+      <h3>[Major Observations]:
+        <ol>
+          <li>Superhosts tend to have outperforming <em>review popularity</em>.</li>
+          <li>Nearly all host <em>respond within hour</em>, not only superhosts</li>
+          <li>Being a superhost is irrelavant to how long you have been on Airbnb.</li>
+       </ol>
+        [Conclusions]:
+        <ul style="list-style-type:none;">
+          <li>If you plan to be an Airbnb host in Chicago, loft could be a good choice due to high popularity and low supply. The popular types of room could differ from area to area (you could refer to chart on scene 2 for more information).Remember to complete your listing information and try your best to be a superhost by high review popularity.Good luck on the host journey!</li>
+        </ul>
+        <font color="grey">Explore more with <em>dropdown list</em> and <em>tooltips</em>.</font>
+      </h3>
+  
+          <div class="panel">
+              <p>Listing Attribute (y-axis) =
+                <select id="Filter-Type">
+                  <option value="0">review popularity by quantile</option>
+                  <option value="1">days on airbnb by quantile</option>
+                  <option value="2">host response time</option>
+                </select>
+              </p>
+          </div>
+    </div>
+
+  
+      <script src="https://d3js.org/d3.v3.min.js"></script>
+      <script type="text/javascript" src="script/chart5.js"></script>
+    </div>
+    </div>
+  </body>
+
+</html>

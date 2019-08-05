@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+  <title>CS498 Narrative Visualization</title>
+  <meta name="author" content="Judy Zhu">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <body>
+    <div id="container">
+    <h1>If You Plan to be An Airbnb Host in Chicago...</h1>
+    <h2 class="subtitle">Scene Navigator</h2>
+    <div id="filter_container">
+      <a href= "index.html" id="step1" class="step-link">Know the Market 1</a>
+      <a href= "index2.html" id="step2" class="step-link active">Know the Market 2</a>
+      <a href= "#" id="step3" class="step-link active">Know the Market 3</a>
+      <a href= "index4.html" id="step4" class="step-link">Know the Market 4</a>
+      <a href= "index5.html" id="step5" class="step-link">Being a Superhost</a>
+      </br>
+      </br>
+      <h2> FIRST, know about the market: <u>host is "superhost"</u>?</h2>
+      <h3>The Bar Chart below is grouped by <strong><u>superhost indicators</u> </strong> and locations to see whether the places listed by a superhost or not could differ on the <em>listing attributes</em>:</h3>
+      <h3>[Major Observations]:
+        <ol>
+          <li><font color=#c90704><u>listings under a superhost</u></font> <em><font color="grey">(highlighted in </font><font color=#c90704>Red</font><font color="grey"> bar)</font></em> scores significantly higher than listings by non-superhost in terms of scores, review ratings and popularity.</li>
+          <li>Overall, Chicago has fewer listings under <font color=#c90704><u>superhost</u></font>. But you could find one exception (more listings by <font color=#c90704>superhost</font> than <font color=#d5d5d5><u>non-superhost</u></font>) in <em>Logan Square</em>. This possibly indicates it is hard to outstand among hosts in this area.</li>
+        </ol>
+        [Suggestions]:
+        <ul style="list-style-type:none;">
+          <li>Be a superhost! It does matter.</li>
+        </ul>
+        Explore more with <em>dropdown list</em> and <em>tooltips</em>.
+      </h3>
+  
+          <div class="panel">
+              <p>Listing Attribute (y-axis) =
+                <select id="Filter-Type">
+                  <option value="6">overall score</option>
+                  <option value="3">review popularity</option>
+                  <option value="4">review rating</option>
+                  <option value="5">availability score</option>
+                  <option value="0">number of listings</option>
+                  <option value="1">price per bedroom</option>
+                  <option value="2">price per accommodate</option>
+                </select>
+              </p>
+          </div>
+    </div>
+
+  
+      <script src="https://d3js.org/d3.v3.min.js"></script>
+      <script type="text/javascript" src="script/chart3.js"></script>
+    </div>
+    </div>
+  </body>
+
+</html>

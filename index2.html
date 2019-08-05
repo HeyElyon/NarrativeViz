@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+  <title>CS498 Narrative Visualization</title>
+  <meta name="author" content="Judy Zhu">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <body>
+    <div id="container">
+    <h1>If You Plan to be An Airbnb Host in Chicago...</h1>
+    <h2 class="subtitle">Scene Navigator</h2>
+    <div id="filter_container">
+      <a href= "index.html" id="step1" class="step-link">Know the Market 1</a>
+      <a href= "#" id="step2" class="step-link active">Know the Market 2</a>
+      <a href= "index3.html" id="step3" class="step-link">Know the Market 3</a>
+      <a href= "index4.html" id="step4" class="step-link">Know the Market 4</a>
+      <a href= "index5.html" id="step5" class="step-link">Being a Superhost</a>
+      </br>
+      </br>
+      <h2> FIRST, know about the market: <u>room types</u>  </h2>
+      <h3>The Bar Chart below is grouped by <strong><u>room types</u> </strong> and locations to see how different types of rooms differ under the following <em>listing attributes</em>:</h3>
+      <h3>[Major Observations]:
+        <ol>
+          <li>The number of <font color=#ca0020><u>Entire home/apt</u></font> <em><font color="grey">(highlighted in </font><font color=#c90704>Red</font><font color="grey"> bar)</font></em> is dominately more than others in all area.</li>
+          <li>The price per bedroom of <font color=#ca0020><u>Entire home/apt</u></font> is also the highest.</li>
+          <li>Room type popularity and ratings are area-specific. <font color="#BEC7B8"><u>Shared room</u></font> scores highest in <em>Nea North Side</em> while <font color="#7B9867"><u>Shared room</u></font> for <em>Logan Square</em>.</li>
+        </ol>
+        [Suggestions]:
+        <ul style="list-style-type:none;">
+          <li>The room type choices may depend on the area you would like to host.</li>
+        </ul>
+        Explore more with <em>dropdown list</em> and <em>tooltips</em>.
+      </h3>
+  
+          <div class="panel">
+              <p>Listing Attribute (y-axis) =
+                <select id="Filter-Type">
+                  <option value="0">number of listings</option>
+                  <option value="1">price per bedroom</option>
+                  <option value="2">price per accommodate</option>
+                  <option value="6">overall score</option>
+                  <option value="3">review popularity</option>
+                  <option value="4">review rating</option>
+                  <option value="5">availability score</option>
+                </select>
+              </p>
+          </div>
+    </div>
+
+  
+      <script src="https://d3js.org/d3.v3.min.js"></script>
+      <script type="text/javascript" src="script/chart2.js"></script>
+    </div>
+    </div>
+  </body>
+
+</html>
