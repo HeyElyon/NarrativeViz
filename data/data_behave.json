@@ -1,0 +1,251 @@
+[
+  {
+    "ID": "review_popularity_quantile",
+    "info": [
+      {
+        "categorie": "0",
+        "values": [
+          {
+            "value": 425.0,
+            "rate": "f"
+          },
+          {
+            "value": 85.0,
+            "rate": "t"
+          }
+        ]
+      },
+      {
+        "categorie": "1",
+        "values": [
+          {
+            "value": 358.0,
+            "rate": "f"
+          },
+          {
+            "value": 151.0,
+            "rate": "t"
+          }
+        ]
+      },
+      {
+        "categorie": "2",
+        "values": [
+          {
+            "value": 290.0,
+            "rate": "f"
+          },
+          {
+            "value": 198.0,
+            "rate": "t"
+          }
+        ]
+      },
+      {
+        "categorie": "3",
+        "values": [
+          {
+            "value": 267.0,
+            "rate": "f"
+          },
+          {
+            "value": 239.0,
+            "rate": "t"
+          }
+        ]
+      },
+      {
+        "categorie": "4",
+        "values": [
+          {
+            "value": 204.0,
+            "rate": "f"
+          },
+          {
+            "value": 293.0,
+            "rate": "t"
+          }
+        ]
+      },
+      {
+        "categorie": "5",
+        "values": [
+          {
+            "value": 203.0,
+            "rate": "f"
+          },
+          {
+            "value": 297.0,
+            "rate": "t"
+          }
+        ]
+      },
+      {
+        "categorie": "6",
+        "values": [
+          {
+            "value": 199.0,
+            "rate": "f"
+          },
+          {
+            "value": 303.0,
+            "rate": "t"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": "days_on_air_quantile",
+    "info": [
+      {
+        "categorie": "0",
+        "values": [
+          {
+            "value": 287.0,
+            "rate": "f"
+          },
+          {
+            "value": 246.0,
+            "rate": "t"
+          }
+        ]
+      },
+      {
+        "categorie": "1",
+        "values": [
+          {
+            "value": 255.0,
+            "rate": "f"
+          },
+          {
+            "value": 217.0,
+            "rate": "t"
+          }
+        ]
+      },
+      {
+        "categorie": "2",
+        "values": [
+          {
+            "value": 279.0,
+            "rate": "f"
+          },
+          {
+            "value": 226.0,
+            "rate": "t"
+          }
+        ]
+      },
+      {
+        "categorie": "3",
+        "values": [
+          {
+            "value": 284.0,
+            "rate": "f"
+          },
+          {
+            "value": 213.0,
+            "rate": "t"
+          }
+        ]
+      },
+      {
+        "categorie": "4",
+        "values": [
+          {
+            "value": 292.0,
+            "rate": "f"
+          },
+          {
+            "value": 243.0,
+            "rate": "t"
+          }
+        ]
+      },
+      {
+        "categorie": "5",
+        "values": [
+          {
+            "value": 248.0,
+            "rate": "f"
+          },
+          {
+            "value": 220.0,
+            "rate": "t"
+          }
+        ]
+      },
+      {
+        "categorie": "6",
+        "values": [
+          {
+            "value": 301.0,
+            "rate": "f"
+          },
+          {
+            "value": 201.0,
+            "rate": "t"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": "host_response_time",
+    "info": [
+      {
+        "categorie": "a few days or more",
+        "values": [
+          {
+            "value": 27.0,
+            "rate": "f"
+          },
+          {
+            "value": 0.0,
+            "rate": "t"
+          }
+        ]
+      },
+      {
+        "categorie": "within a day",
+        "values": [
+          {
+            "value": 126.0,
+            "rate": "f"
+          },
+          {
+            "value": 38.0,
+            "rate": "t"
+          }
+        ]
+      },
+      {
+        "categorie": "within a few hours",
+        "values": [
+          {
+            "value": 174.0,
+            "rate": "f"
+          },
+          {
+            "value": 136.0,
+            "rate": "t"
+          }
+        ]
+      },
+      {
+        "categorie": "within an hour",
+        "values": [
+          {
+            "value": 1263.0,
+            "rate": "f"
+          },
+          {
+            "value": 1322.0,
+            "rate": "t"
+          }
+        ]
+      }
+    ]
+  }
+]
